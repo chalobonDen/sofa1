@@ -1,0 +1,81 @@
+
+h1{
+	color: #E5AC20
+}
+b{
+	color: #F7BF20 
+}
+
+th {
+  background-color: #F7BF20;
+  color: white;
+
+}
+table, td, th {   
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+body{
+	background-image: url(logoBackground2.png);
+  background-repeat: repeat;
+}
+
+th, td {
+  padding: 15px;
+}
+
+button{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #787574; /*สีตัวหนังสือ*/
+  background-color: #FFDB58; /*สีพิ้นหลังปุ่ม*/
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 19px;
+  overflow: hidden;
+  transition: 0.2s;
+  margin: 50px 0 20px 0; 
+  border-radius: 8px;
+}
+
+button:hover{
+  color: #fff; /*สีตัวหนังสือปุ่มเมื่อจิ้ม*/
+  background: #F7BF20; /*สีพื้นหลังปุ่มเมื่อจิ้ม*/
+  box-shadow: 0 0 10px #F7BF20, 0 0 40px #F7BF20, 0 0 80px #F7BF20; /*แสงนอกปุ่ม*/
+  
+}
+
+table#t05 {
+  width: 50%;
+  margin: 15px 15px;
+}
+
+td#Address{
+	text-align: left;
+	padding:  50px 0 50px 150px;
+}
+
+.showInfo{
+	border: 3px solid #C0C0C0;
+	margin: 20px 80px;
+	background-color: #fff;
+}
+
+.tableSum{
+	padding-left: 17.2cm;
+}
+
+.PayShipTerm{
+	text-align: left;
+}
+
+.showBom{
+  background-color: #fff;
+}

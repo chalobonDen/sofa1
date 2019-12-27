@@ -1,0 +1,56 @@
+h3{
+	display: inline;
+}
+
+.a1{
+	padding-right: 150px;
+}
+
+.genric-btn {
+  display: inline-block;
+  outline: none;
+  line-height: 60px;
+  padding: 0 50px;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin: 20px 15px;
+}
+
+.PrPoList {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.2em;
+  min-width: 400px;
+  border-radius: 10px 10px ;
+  overflow: hidden;  
+  box-shadow: 0 0 10px #dddddd, 0 0 40px #dddddd, 0 0 80px #dddddd; 
+}
+
+.PrPoList thead tr{	
+	background-color: #c44b34; /*สีหัวตาราง*/
+  color: #ffffff; /*ตัวหนังสีตาราง*/
+  text-align: left;
+  font-weight: bold;
+}
+
+.PrPoList th,
+.PrPoList td {
+  padding: 30px 80px;
+}
+
+.PrPoList tbody tr {
+  border-bottom: 1px solid #dddddd; 
+
+}
+
+.PrPoList tbody tr:last-of-type {
+  border-bottom: 3px solid #ae432e;
+}
+
